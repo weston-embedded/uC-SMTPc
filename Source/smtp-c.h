@@ -635,9 +635,9 @@ void         SMTPc_SetMsg      (SMTPc_MSG               *msg,
 
 #ifndef  SMTPc_CFG_USERNAME_MAX_LEN
 #error  "SMTPc_CFG_USERNAME_MAX_LEN not #define'd in 'smtp-c_cfg.h' see template file in package named 'smtp-c_cfg.h'"
-#elif  ((SMTMc_CFG_USERNAME_MAX_LEN <                   0) || \
-        (SMTMc_CFG_USERNAME_MAX_LEN > DEF_INT_08U_MAX_VAL))
-#error  "SMTMc_CFG_USERNAME_MAX_LEN illegally #define'd in 'smtp-c_cfg.h'[MUST be >= 0 && <= 255]"
+#elif  ((SMTPc_CFG_USERNAME_MAX_LEN <                   0) || \
+        (SMTPc_CFG_USERNAME_MAX_LEN > DEF_INT_08U_MAX_VAL))
+#error  "SMTPc_CFG_USERNAME_MAX_LEN illegally #define'd in 'smtp-c_cfg.h'[MUST be >= 0 && <= 255]"
 #endif
 
 
