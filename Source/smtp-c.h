@@ -3,7 +3,7 @@
 *                                              uC/SMTPc
 *                               Simple Mail Transfer Protocol (client)
 *
-*                    Copyright 2004-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2004-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -20,7 +20,7 @@
 *                                             SMTP CLIENT
 *
 * Filename : smtp-c.h
-* Version  : V2.01.00
+* Version  : V2.01.01
 *********************************************************************************************************
 * Note(s)  : (1) This code implements a subset of the SMTP protocol (RFC 2821).  More precisely, the
 *                following commands have been implemented:
@@ -77,7 +77,7 @@
 *********************************************************************************************************
 */
 
-#define  SMTPc_VERSION                                 20100u   /* See Note #1.                                         */
+#define  SMTPc_VERSION                                 20101u   /* See Note #1.                                         */
 
 
 /*
