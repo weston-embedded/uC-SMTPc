@@ -3,7 +3,7 @@
 *                                              uC/SMTPc
 *                               Simple Mail Transfer Protocol (client)
 *
-*                    Copyright 2004-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2004-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -20,7 +20,7 @@
 *                                      uC/SMTPc CMD SOURCE CODE
 *
 * Filename : smtp-c_cmd.c
-* Version  : V2.01.00
+* Version  : V2.01.01
 *********************************************************************************************************
 * Note(s)  : (1) Assumes the following versions (or more recent) of software modules are included in
 *                the project build :
